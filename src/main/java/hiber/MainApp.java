@@ -42,8 +42,8 @@ public class MainApp {
          System.out.println("Last Name = "+user.getLastName());
          System.out.println("Email = "+user.getEmail());
       }
-
-      System.out.println(userService.findUser("model1", 1));
+      System.out.println("Вызываем поиск: \n");
+      System.out.println(userService.findUserByCar("model1", 1));
 
       context.close();
    }

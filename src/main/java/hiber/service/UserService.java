@@ -6,6 +6,6 @@ import java.util.List;
 public interface UserService {
     void add(User user);
     List<User> listUsers();
-    User findUser(String car_model, int car_series);
+    User findUserByCar(String car_model, int car_series);
     void deleteUserFromTable();
 }
